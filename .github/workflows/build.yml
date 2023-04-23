@@ -1,4 +1,4 @@
-name: "despliegue de la aplicacion"
+name: "Despliegue de proyectos en GitHub Pages"
 on:
     push:
       branches: 
@@ -20,7 +20,7 @@ jobs:
 
       steps:
         - name: Checkout 🛎️
-          uses: actions/checkout@main
+          uses: actions/checkout@master
           with:
             persist-credentials: false
 
