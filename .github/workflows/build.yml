@@ -12,7 +12,7 @@ on:
       paths-ignore:
         - "**.md"
 jobs:
-    build-deploy:
+    build-yml:
       runs-on: ubuntu-latest
 
       permissions:
