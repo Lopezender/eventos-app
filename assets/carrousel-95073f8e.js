@@ -36,7 +36,7 @@ class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-g
   </div>
   <div class="flex items-center justify-center">
   
-    <a data-tooltip-target="tooltip-new" href="informacion.html"
+    <a data-tooltip-target="tooltip-new" href="Tickets.html"
       class="inline-flex items-center justify-center w-10 h-10 font-medium bg-pink-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
       <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true">
