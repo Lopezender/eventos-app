@@ -9,8 +9,8 @@ carrousel.innerHTML = `<div id="indicators-carousel" class="relative" data-carou
   <!-- Text -->
   <div
     class="absolute bottom-0 left-0 z-20 flex flex-col items-start justify-center w-full h-1/2 px-4 pb-4 text-white bg-gradient-to-t from-black/50">
-    <h2 class="text-2xl font-bold">Event 1</h2>
-    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    <h2 class="text-2xl font-bold">Ghostemane</h2>
+    <p class="text-sm"> Incio de concierto, 25 de Mayo</p>
   </div>
 </div>
 <!-- Item 2 -->
@@ -20,8 +20,8 @@ carrousel.innerHTML = `<div id="indicators-carousel" class="relative" data-carou
   <!-- Text -->
   <div
     class="absolute bottom-0 left-0 z-20 flex flex-col items-start justify-center w-full h-1/2 px-4 pb-4 text-white bg-gradient-to-t from-black/50">
-    <h2 class="text-2xl font-bold">Event 2</h2>
-    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    <h2 class="text-2xl font-bold">Evento 2</h2>
+    <p class="text-sm"> Inicio de concierto, 30 de mayo </p>
   </div>
 </div>
 <!-- Item 3 -->
@@ -31,8 +31,8 @@ carrousel.innerHTML = `<div id="indicators-carousel" class="relative" data-carou
   <!-- Text -->
   <div
     class="absolute bottom-0 left-0 z-20 flex flex-col items-start justify-center w-full h-1/2 px-4 pb-4 text-white bg-gradient-to-t from-black/50">
-    <h2 class="text-2xl font-bold">Event 3</h2>
-    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    <h2 class="text-2xl font-bold">Evento 3</h2>
+    <p class="text-sm"> Inicia de concierto, 20 Mayo</p>
   </div>
 </div>
 <!-- Item 4 -->
@@ -42,8 +42,8 @@ carrousel.innerHTML = `<div id="indicators-carousel" class="relative" data-carou
   <!-- Text -->
   <div
     class="absolute bottom-0 left-0 z-20 flex flex-col items-start justify-center w-full h-1/2 px-4 pb-4 text-white bg-gradient-to-t from-black/50">
-    <h2 class="text-2xl font-bold">Event 4</h2>
-    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    <h2 class="text-2xl font-bold"> Jon Z </h2>
+    <p class="text-sm"> Inicio de concierto, 19 Mayo</p>
   </div>
 </div>
 
@@ -54,8 +54,8 @@ carrousel.innerHTML = `<div id="indicators-carousel" class="relative" data-carou
   <!-- Text -->
   <div
     class="absolute bottom-0 left-0 z-20 flex flex-col items-start justify-center w-full h-1/2 px-4 pb-4 text-white bg-gradient-to-t from-black/50">
-    <h2 class="text-2xl font-bold">Event 5</h2>
-    <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    <h2 class="text-2xl font-bold">Evento 5</h2>
+    <p class="text-sm"> Inicio de concierto, 05 de Junio</p>
   </div>
 </div>
 </div>
