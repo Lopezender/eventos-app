@@ -4,29 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil</title>
-  <script type="module" crossorigin src="/eventos-app/assets/carrousel-72dae1b9.js"></script>
-  <link rel="stylesheet" href="/eventos-app/assets/carrousel-88ccd267.css">
+    <title>Mi perfil</title>
+
+  <script type="module" crossorigin src="/eventos-app/assets/carrousel-5f5cecc3.js"></script>
+  <link rel="stylesheet" href="/eventos-app/assets/carrousel-6dc5e698.css">
 </head>
-
 <body>
-    
-    <main>
-    <div class="relative">
-        <img src="/eventos-app/assets/ghostemane-43d3285d.jpg" alt="foto">
-    <div class= "absolute left-1/2 -translate-x-1/2 -translate-y-1/2">
-    <img class="w-48 h-48 mx-auto
-     border-4 border-rose-500 rounded-full" src="/eventos-app/assets/7-ad26d311.jpg" alt="img">
-     </div>
+ <main class="bg-gray-100 ">
+    <div class="relative pb-2">
+        <img src="/eventos-app/assets/ghostemane-43d3285d.jpg" alt="fondo" class="h-100">
+        <div class="absolute  left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+            <img src="/eventos-app/assets/7-ad26d311.jpg" alt="perfil" class="w-32 h-32  rounded-full mx-auto border-4 border-rose-500">
+          
+        </div>
+        <div class="text-center mt-16 font-bold">
+            <p>Ender Eduardo Aleman López</p>
+            <p>est.ealemanl0201@uml.edu.ni</p>
+        </div>
+        <div class="mt-10 text-center">
+            <button type="button" class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-pink-300 font-medium rounded-xl text-sm px-14 py-2.5 mr-6 mb-2 dark:bg-pink-600 dark:hover:bg-pink-700 focus:outline-none dark:focus:ring-pink-800">Comprar tickets</button>
+            <button type="button" class="text-white bg-blue-700 hover:bg-red-800 focus:ring-4 focus:ring-pink-300 font-medium rounded-xl text-sm px-14 py-2.5 mr-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-700 focus:outline-none dark:focus:ring-pink-800">Tickets adquiridos</button>
 
-     <div class="text-center mt-28">
-<p class="font-bold">Ender Eduardo Aleman Lopez</p>
-<p>est.ealemanl0201@uml.edu.ni</p>
-   </div>
-</div>
+        </div>
+        <div>
+          <p class="font-bold pt-2 pl-6">Próximo evento mas reciente</p>
+        </div>
+        <div class="bg-white mr-4 ml-4 mb-4 pb-4 rounded-2xl">
+            
+            <div class="ml-4 mt-6 pt-4">
+                
+                    <button type="button" class="absolute right-4 text-white   bg-pink-600 hover:bg-pink-800 focus:ring-4 focus:ring-pink-300 font-medium rounded-full text-sm px-8 py-2.5 mr-4 mb-2 mt-4 dark:bg-pink-600 dark:hover:bg-pink-700 focus:outline-none dark:focus:ring-pink-800">Ver detalles</button>
+                
+                <p class="font-bold mb-2">Rhiana World Tour</p>
+                <p class="text-sm">Estadio Roy Fernando - Ocotal</p>
+
+            </div>
+            <div class="mt-6  grid grid-cols-2 ml-4  ">
+                <!-- usuarios -->
+                <div class="flex mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-800">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  </svg>
+                  <p class="ml-2">3 personas</p>
+                </div>
+                
+                  <!-- fecha -->
+                  <div class="flex -ml-40">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-800 ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                  </svg>
+                  <p class="ml-2">18 junio 2023</p>
+                </div>
+
+                 <!-- time -->
+                 <div class="flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-800">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="ml-2">10:00 pm</p>
+                  </div>
+
+                  <!-- ubicacion -->
+                  <div class="flex -ml-40">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-800">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                  <p class="ml-2">Minima Room</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white mr-4 ml-4 mb-4 pb-4 rounded-2xl">
+          <button type="button" class="absolute right-4 text-white  bg-blue-600 hover:bg-pink-800 focus:ring-4 focus:ring-pink-300 font-medium rounded-full text-sm px-6 py-2.5 mr-4 mb-2 mt-4 dark:bg-pink-600 dark:hover:bg-pink-700 focus:outline-none dark:focus:ring-pink-800">Configuración</button>
+          <p class="pt-2 pl-4 font-bold ">Seguridad</p>
+          <p class="pt-2 pl-4">Establece parámetros de seguridad</p>
+        </div>
+
+
+
+
+
+
+    </div>
 
     <div id="barra"></div>
     
-    </main>
+ </main>
 </body>
 </html>
