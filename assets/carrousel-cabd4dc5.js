@@ -18,7 +18,7 @@ class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-g
     <div class="tooltip-arrow" data-popper-arrow></div>
   </div>
 
-  <a data-tooltip-target="tooltip-eventos" href= "tickets.html"
+  <a data-tooltip-target="tooltip-eventos" href= "detalles.html"
     class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
       class="w-6 h-6 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500">
@@ -35,7 +35,8 @@ class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-g
     <div class="tooltip-arrow" data-popper-arrow></div>
   </div>
   <div class="flex items-center justify-center">
-    <a data-tooltip-target="tooltip-new" href="locations.html"
+  
+    <a data-tooltip-target="tooltip-new" href="informacion.html"
       class="inline-flex items-center justify-center w-10 h-10 font-medium bg-pink-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
       <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true">
