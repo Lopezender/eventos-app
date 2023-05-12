@@ -82,8 +82,7 @@ class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-g
   </div>
 </div>
 </div>
-`;let vr=document.getElementById("header");vr.innerHTML=`
-<header class="flex flex-row justify-between items-center p-4 bg-red">
+`;let vr=document.getElementById("header");vr.innerHTML=`<header class="flex flex-row justify-between items-center p-4 bg-red">
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
     class="w-6 h-6 text-white">
