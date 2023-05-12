@@ -1,4 +1,4 @@
-import"./carrousel-65fcec62.js";import{R as s,_ as o,f as n,d as a}from"./firebase-0b008f5d.js";const l=s(o(a,"eventos")),i=await n(l);let c=document.getElementById("eventos");i.forEach(t=>{let e=t.data();c.innerHTML+=`<li> <p class="text-center font-serif text-black mt-6 font-extrabold bg-red-500"> ${e.nombre}</p>
+import"./carrousel-65fcec62.js";import{R as o,_ as s,f as n,d as a}from"./firebase-0b008f5d.js";const l=o(s(a,"eventos")),i=await n(l);let c=document.getElementById("eventos");i.forEach(t=>{let e=t.data();c.innerHTML+=`<li> <p class="text-center font-serif text-black mt-6 font-extrabold bg-red-500"> ${e.nombre}</p>
     <div class="container">
     <img src="${e.imagen}" alt="${e.nombre}" class="h-auto max-w-full ml-auto mx-auto mt-8 w-full">
        </div>
@@ -6,7 +6,7 @@ import"./carrousel-65fcec62.js";import{R as s,_ as o,f as n,d as a}from"./fireba
        <div class="titulo bg-green-400">
        <span class="font-medium top-20 left-16"> ${e.sede_id}</span>
        <p class="font-medium top-20 left-16"> ${e.hora}</p>
-       <p class="font-medium top-20 left-16"> ${e.descripción}</p>
+       <p class="font-medium top-20 left-16"> ${e.descripcion}</p>
        </div>
 
        <div class=" text-blue-600 flex bg-green-400">
