@@ -1,6 +1,6 @@
-import"./carrousel-b1dc49a4.js";import{R as s,_ as o,f as n,d as a}from"./firebase-0b008f5d.js";const l=s(o(a,"eventos")),c=await n(l);let i=document.getElementById("eventos");c.forEach(t=>{let e=t.data();i.innerHTML+=`<li> <p class="text-center font-serif text-black mt-6 font-extrabold bg-red-500"> ${e.nombre}</p>
+import"./carrousel-b1dc49a4.js";import{R as s,_ as o,f as n,d as a}from"./firebase-0b008f5d.js";const l=s(o(a,"eventos")),i=await n(l);let c=document.getElementById("eventos");i.forEach(t=>{let e=t.data();c.innerHTML+=`<li> <p class="text-center font-serif text-black mt-6 font-extrabold bg-red-500"> ${e.nombre}</p>
     <div class="container">
-    <img src="${e.ímagen}" alt="${e.nombre}" class="h-auto max-w-full ml-auto mx-auto mt-8 w-full">
+    <img src="${e.imagen}" alt="${e.nombre}" class="h-auto max-w-full ml-auto mx-auto mt-8 w-full">
        </div>
 
        <div class="titulo bg-green-400">
@@ -15,5 +15,4 @@ import"./carrousel-b1dc49a4.js";import{R as s,_ as o,f as n,d as a}from"./fireba
   <span class="flex font-medium top-20 left-16">Público</span>
 </svg>
 </div>
-
     </li>`});
