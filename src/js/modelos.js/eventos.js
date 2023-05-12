@@ -16,7 +16,7 @@ querySnapshot.forEach((doc) => {
   let eventos = doc.data()
     eventos_contenedor.innerHTML += `<li> <p class="text-center font-serif text-black mt-6 font-extrabold bg-red-500"> ${eventos.nombre}</p>
     <div class="container">
-    <img src="${eventos.ímagen}" alt="${eventos.nombre}" class="h-auto max-w-full ml-auto mx-auto mt-8 w-full">
+    <img src="${eventos.imagen}" alt="${eventos.nombre}" class="h-auto max-w-full ml-auto mx-auto mt-8 w-full">
        </div>
 
        <div class="titulo bg-green-400">
@@ -31,6 +31,5 @@ querySnapshot.forEach((doc) => {
   <span class="flex font-medium top-20 left-16">Público</span>
 </svg>
 </div>
-
     </li>`;
 });
