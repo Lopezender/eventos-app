@@ -10,14 +10,12 @@ export default defineConfig({
     outDir: "docs",
     assetsDir: "assets",
     rollupOptions: {
-
-      build: {
-        target: "esnext",
-
-        outDir: "docs",
-      },
-      
       input: {
+        build: {
+          target: "esnext",
+
+          outDir: "docs",
+        },
         main: resolve(__dirname, 'index.html'),
         detalles: resolve(__dirname, 'detalles.html'),
         informacion: resolve(__dirname, 'informacion.html'),
