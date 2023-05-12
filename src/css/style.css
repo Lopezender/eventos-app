@@ -40,3 +40,18 @@ main{
 .seleccionado {
   @apply w-10 h-10 bg-red-500 text-white;
 }
+
+.titulo {
+  text-align: center;
+  color: black;
+}
+
+.container {
+  text-align: center;
+  color: rgb(245, 243, 243);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(1, 1, 1);
+
+}
