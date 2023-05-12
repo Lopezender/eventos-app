@@ -22,7 +22,7 @@ querySnapshot.forEach((doc) => {
        <div class="titulo bg-green-400">
        <span class="font-medium top-20 left-16"> ${eventos.sede_id}</span>
        <p class="font-medium top-20 left-16"> ${eventos.hora}</p>
-       <p class="font-medium top-20 left-16"> ${eventos.descripción}</p>
+       <p class="font-medium top-20 left-16"> ${eventos.descripcion}</p>
        </div>
 
        <div class=" text-blue-600 flex bg-green-400">
