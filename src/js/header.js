@@ -1,7 +1,6 @@
 let header = document.getElementById('header');
 
-header.innerHTML = `
-<header class="flex flex-row justify-between items-center p-4 bg-red">
+header.innerHTML = `<header class="flex flex-row justify-between items-center p-4 bg-red">
 <div>
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
     class="w-6 h-6 text-white">
