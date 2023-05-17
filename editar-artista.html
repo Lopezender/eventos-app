@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas y Agrupaciones</title>
+</head>
+<body>
+    <main class="text-gray-800">
+        <form  method="post" class="flex flex-col gap-2    ">
+            <h1>Editando datos del artista</h1>
+            
+            <!-- Nombre del artista -->
+            <label for="nombre">Nombre del artista</label>
+            <input type="text" id="nombre">
+
+            <!-- Pais del artista -->
+            <label for="pais">Pais del artista</label>
+            <input type="text" id="pais">
+
+            <!-- URl de la foto del artista -->
+            <label for="foto">Foto del artista</label>
+            <input type="text" id="foto">
+
+            <!-- Genero del artista -->
+            <label for="genero">Género del artista</label>
+            <select id="genero">
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="blue">Blue</option>
+                <option value="ranchero">Ranchero</option>
+                <option value="electronica">Eletronica</option>
+                <option value="tecno">Tecno</option>
+            </select>
+
+            <button id="guardar" class="bg-red-500 text-white p-2" type="button">
+                Guardar
+            </button>
+        </form>
+    </main>
+
+    <div id="menu"></div>
+    <script src="./src/js/main.js" type="module"></script>
+    <script src="./src/js/modelos/editar-artista.js" type="module"></script>
+
+</body>
+</html>

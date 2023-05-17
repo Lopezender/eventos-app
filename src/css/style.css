@@ -1,6 +1,9 @@
+@import './artistas.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 body {
     @apply text-gray-600 p-0 m-0 mb-24;

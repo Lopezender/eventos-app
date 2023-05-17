@@ -5,14 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artistas y Agrupaciones</title>
+    <!-- Plugin para ventanas modales / emergentes -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <body>
-<!-- Aqui se inyectan los datos de los artistas -->
-    <ul id="artistas"></ul>
+    <main>
+        <!-- Button insert new artista -->
+        <div class="flex justify-end py-4">
+        <button id="crear" class="rounded-lg bg-red-500  text-white p-2" type="button">
+            Crear artista
+        </button>
+    </div>
+        <!-- Acá se inyectan los datos de los artistas -->
+        <ul id="artistas" class="text-black"></ul>
+    </main>
 
-    <div id="barra"></div>
-
+    <div id="menu"></div>
     <script src="./src/js/main.js" type="module"></script>
-    <script src="./src/js/modelos.js/artistas.js" type="module"></script>
+    <script src="./src/js/modelos/artistas.js" type="module"></script>
+
 </body>
 </html>

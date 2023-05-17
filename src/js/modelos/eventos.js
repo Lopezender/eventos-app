@@ -15,13 +15,14 @@ let eventos_contenedor = document.getElementById('eventos');
 querySnapshot.forEach((doc) => {
   let eventos = doc.data()
     eventos_contenedor.innerHTML += `<li> <p class="text-center font-serif text-black mt-6 w-80 mx-auto font-extrabold bg-red-500"> ${eventos.nombre}</p>
-    <div class="w-80 h-full mx-auto mt-6 mt-2>
+    <p class="text-black font-serif ml-6">${eventos.fecha}</p>
+    <div class="w-80 h-full mx-auto mt-2>
     <div class="container">
     <img src="${eventos.imagen}" alt="${eventos.nombre}" class="h-50 pb-4 pt-4 pl-4 pr-4 mx-auto rounded-md bg-white">
        </div>
        </div>
 
-       <div class="titulo bg-green-400 w-80 mx-auto mt-2">
+       <div class="titulo bg-green-400 w-80 mx-auto mt-2 rounded-md">
        <span class="font-medium top-20 left-16"> ${eventos.sede_id}</span>
        <p class="font-medium top-20 left-16"> ${eventos.hora}</p>
        <p class="font-medium top-20 left-16"> ${eventos.descripcion}</p>
