@@ -1,11 +1,12 @@
-import"./carrousel-7f350aa0.js";import{R as o,_ as s,f as n,d as a}from"./firebase-0b008f5d.js";const l=o(s(a,"eventos")),i=await n(l);let m=document.getElementById("eventos");i.forEach(e=>{let t=e.data();m.innerHTML+=`<li> <p class="text-center font-serif text-black mt-6 w-80 mx-auto font-extrabold bg-red-500"> ${t.nombre}</p>
-    <div class="w-80 h-full mx-auto mt-6 mt-2>
+import"./carrousel-a47c82c6.js";import{R as o,_ as s,f as a,d as n}from"./firebase-0d16ecc9.js";const l=o(s(n,"eventos")),i=await a(l);let m=document.getElementById("eventos");i.forEach(e=>{let t=e.data();m.innerHTML+=`<li> <p class="text-center font-serif text-black mt-6 w-80 mx-auto font-extrabold bg-red-500"> ${t.nombre}</p>
+    <p class="text-black font-serif ml-6">${t.fecha}</p>
+    <div class="w-80 h-full mx-auto mt-2>
     <div class="container">
     <img src="${t.imagen}" alt="${t.nombre}" class="h-50 pb-4 pt-4 pl-4 pr-4 mx-auto rounded-md bg-white">
        </div>
        </div>
 
-       <div class="titulo bg-green-400 w-80 mx-auto mt-2">
+       <div class="titulo bg-green-400 w-80 mx-auto mt-2 rounded-md">
        <span class="font-medium top-20 left-16"> ${t.sede_id}</span>
        <p class="font-medium top-20 left-16"> ${t.hora}</p>
        <p class="font-medium top-20 left-16"> ${t.descripcion}</p>
